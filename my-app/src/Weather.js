@@ -17,7 +17,7 @@ export default function Weather(props) {
       condition: response.data.condition.description,
       wind: response.data.wind.speed,
       city: response.data.city,
-      icon: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
+      icon_url: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
     });
   }
 
