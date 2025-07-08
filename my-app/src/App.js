@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://linkedin.com/in/ninankhwashu"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Nina Nkhwashu
           </a>{" "}
